@@ -1,0 +1,53 @@
+body div {
+	font-family: 'Georgia', serif;
+}
+
+			/*HEADER*/
+div#header-nav {
+	background-color: #dfd;
+}
+
+.navbar-brand h1 {
+	color: #294;
+	font-size: 1.5em;
+	text-transform: capitalize;
+	font-weight: bold;
+	text-shadow: 3px 3px 3px #ccc;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-brand h1:hover {
+	color: #4b6;
+}
+.navbar-header button.navbar-toggle {
+	float: right;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #294;
+}
+div#collapsible-nav li:hover {
+	background-color: #fff;
+}
+			/*END HEADER*/
+
+			/*MAIN CONTENT*/
+
+div#menu-categories section {
+	background-color: #beb;
+	width: 100%;
+	margin-bottom: 15px;
+}
+div#menu-categories section h3 {
+	text-align: center;
+	padding: 10px 0px;
+	font-weight: bold;
+}
+div#menu-categories section p {
+	padding: 0px 10px 10px;
+}
+
+			/*END MAIN CONTENT*/
